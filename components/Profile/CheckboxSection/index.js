@@ -9,9 +9,9 @@ const CheckBoxSection = ({ text, value, disabled, onValueChange, ...args }) => {
       <Checkbox
         disabled={disabled}
         value={value}
+        color={ colors.GREEN }
         onValueChange={onValueChange}
         style={{
-          color: colors.GREEN,
           height: 20,
           width: 20,
         }}

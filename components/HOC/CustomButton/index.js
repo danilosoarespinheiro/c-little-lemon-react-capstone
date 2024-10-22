@@ -6,7 +6,7 @@ const CustomButton = ({ text, style, textStyle, ...args }) => {
   return (
     <Pressable
       style={{
-        padding: 15,
+        padding: 8,
         borderRadius: 8,
         justifyContent: "center",
         alignItems: "center",
@@ -22,6 +22,7 @@ const CustomButton = ({ text, style, textStyle, ...args }) => {
           color: colors.GRAY,
           justifyContent: "center",
           fontWeight: "bold",
+          fontSize: 12,
           ...textStyle,
         }}
       >

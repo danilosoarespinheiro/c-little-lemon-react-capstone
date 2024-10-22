@@ -5,4 +5,5 @@ export const colors = {
   ORANGE: '#EE9972',
   TAN: '#FBDABB',
   BLACK: '#333333',
+  WHITE: '#FFFFFF',
 };

@@ -13,8 +13,8 @@ const CustomTextInput = ({
     <View>
       <Text
         style={{
-          marginBottom: 5,
-          fontSize: 10,
+          marginBottom: 1,
+          fontSize: 8,
           fontWeight: 'bold',
           color: 'gray',
         }}
@@ -23,7 +23,7 @@ const CustomTextInput = ({
       </Text>
       <TextInput
         style={{
-          padding: 10,
+          padding: 8,
           borderRadius: 10,
           borderColor: 'lightgray',
           borderWidth: 1,

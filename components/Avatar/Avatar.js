@@ -74,7 +74,14 @@ const Avatar = ({ onPress, onlyAvatar, ...props }) => {
 
         <CustomButton text={"Change"} onPress={pickImage} />
         {profileImageUri && (
-          <CustomButton text={"Remove"} onPress={clearImage} />
+          <CustomButton text={"Remove"}
+            style={{
+              backgroundColor: "rgba(0, 0, 0, 0)",
+              borderColor: colors.GREEN,
+            }}
+            textStyle={{ color: colors.BLACK }}
+
+            onPress={clearImage} />
         )}
       </View>
     </View>

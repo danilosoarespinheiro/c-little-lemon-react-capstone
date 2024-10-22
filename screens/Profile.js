@@ -135,6 +135,8 @@ export default function ProfileScreen({ navigation }) {
             placeholder="(000) 000-0000"
             onChangeText={setPhoneNumber}
             keyboardType="numeric"
+            maxLength={10}
+            
           />
 
           {/* Notification Section  */}
@@ -175,6 +177,7 @@ export default function ProfileScreen({ navigation }) {
           <CustomButton
             text="Log out"
             style={{
+              marginTop: 20,
               backgroundColor: colors.YELLOW,
               borderColor: colors.YELLOW,
             }}
@@ -201,17 +204,6 @@ export default function ProfileScreen({ navigation }) {
             />
             <CustomButton text="Save Changes" onPress={saveProfileChanges} />
           </View>
-          <CustomButton
-            text="RESET APP"
-            onPress={resetApp}
-            style={{
-              backgroundColor: "red",
-              borderWidth: 0,
-              width: 200,
-              alignSelf: "center",
-              marginTop: 10,
-            }}
-          />
         </View>
       </ScrollView>
     </TouchableWithoutFeedback>
