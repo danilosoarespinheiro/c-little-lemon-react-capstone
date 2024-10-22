@@ -34,6 +34,8 @@ export default function ProfileScreen({ navigation }) {
   const { logOut, updateUser, globalState, setOnboardingCompleted } =
     useContext(AppContext);
 
+  const [maskedValue, setMaskedValue] = useState("");
+  const [unMaskedValue, setUnmaskedValue] = useState("");
   const { user } = globalState;
 
   const setProfileValues = async (userAsyncStorage) => {
@@ -135,8 +137,8 @@ export default function ProfileScreen({ navigation }) {
             placeholder="(000) 000-0000"
             onChangeText={setPhoneNumber}
             keyboardType="numeric"
-            maxLength={10}
-            
+            mask="(999) 999-9999"
+
           />
 
           {/* Notification Section  */}

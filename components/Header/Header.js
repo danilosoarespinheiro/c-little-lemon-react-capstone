@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
   },
   logoContainer: {
     alignItems: "center",
+    justifyContent: 'center',
   },
   image: {
     height: 30,

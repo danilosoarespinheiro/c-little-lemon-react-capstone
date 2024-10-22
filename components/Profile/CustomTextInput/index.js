@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, TextInput, View } from 'react-native';
+import { MaskedTextInput } from "react-native-mask-text";
 
 const CustomTextInput = ({
   label,
@@ -21,7 +22,7 @@ const CustomTextInput = ({
       >
         {label}
       </Text>
-      <TextInput
+      <MaskedTextInput
         style={{
           padding: 8,
           borderRadius: 10,

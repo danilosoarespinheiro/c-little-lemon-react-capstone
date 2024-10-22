@@ -76,7 +76,13 @@ const Navigation = () => {
             <Stack.Screen
               name="Profile"
               component={ProfileScreen}
-              options={{ headerTitle: (props) => <Header {...props} /> }}
+              options={{ headerTitle: (props) => <Header {...props} />,
+              headerRight: () => (
+                <Avatar
+                  onlyAvatar={true}
+                />
+              ),
+            }}
             />
           </>
         ) : (
