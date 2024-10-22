@@ -4,7 +4,7 @@ import { colors } from "../../constants/color";
 const Header = () => {
   return (
     <View style={styles.logoContainer}>
-      <Image source={require("../../assets/Logo.png")} style={styles.image} />
+      <Image source={require("../../assets/Logo.png")} style={styles.image}  />
     </View>
   );
 };
@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
   logoContainer: {
     alignItems: "center",
     justifyContent: 'center',
+  
   },
   image: {
     height: 30,

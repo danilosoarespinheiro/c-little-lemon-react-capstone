@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     flex: 1,
-    height: 50,
+    height: 40,
   },
   searchIcon: {
     width: 20,

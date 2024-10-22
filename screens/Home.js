@@ -171,10 +171,12 @@ const styles = StyleSheet.create({
     fontWeight: "500",
   },
   itemPrice: { fontWeight: "500" },
-  itemImageContainer: { width: 100, height: 100, backgroundColor: "black" },
+  itemImageContainer: { width: 100, height: 100, backgroundColor: "white" },
   menuImage: {
     resizeMode: "cover",
     width: 100,
     height: 100,
+    borderRadius: 10,
+    overflow: "hidden",
   },
 });
